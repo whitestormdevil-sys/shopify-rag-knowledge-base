@@ -1,0 +1,146 @@
+{
+  "ajax-api": {
+    "ok": 5,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "metaobjects": {
+    "ok": 10,
+    "cached": 0,
+    "failed": 5,
+    "empty": 0
+  },
+  "customer-events": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 8,
+    "empty": 0
+  },
+  "bulk-operations": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "multipass": {
+    "ok": 1,
+    "cached": 0,
+    "failed": 0,
+    "empty": 0
+  },
+  "markets": {
+    "ok": 7,
+    "cached": 0,
+    "failed": 5,
+    "empty": 0
+  },
+  "flow": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "app-proxy": {
+    "ok": 1,
+    "cached": 0,
+    "failed": 1,
+    "empty": 0
+  },
+  "theme-patterns": {
+    "ok": 11,
+    "cached": 0,
+    "failed": 12,
+    "empty": 0
+  },
+  "seo": {
+    "ok": 1,
+    "cached": 0,
+    "failed": 4,
+    "empty": 0
+  },
+  "performance": {
+    "ok": 1,
+    "cached": 0,
+    "failed": 6,
+    "empty": 0
+  },
+  "cdn-images": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 1,
+    "empty": 0
+  },
+  "b2b": {
+    "ok": 4,
+    "cached": 0,
+    "failed": 5,
+    "empty": 0
+  },
+  "payments": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 3,
+    "empty": 0
+  },
+  "review-checklists": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 9,
+    "empty": 0
+  },
+  "migrations": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "email-templates": {
+    "ok": 0,
+    "cached": 0,
+    "failed": 1,
+    "empty": 0
+  },
+  "pos": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 0,
+    "empty": 0
+  },
+  "auth": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 6,
+    "empty": 0
+  },
+  "subscriptions": {
+    "ok": 5,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "discounts": {
+    "ok": 6,
+    "cached": 0,
+    "failed": 0,
+    "empty": 0
+  },
+  "theme-app-extensions": {
+    "ok": 2,
+    "cached": 0,
+    "failed": 2,
+    "empty": 0
+  },
+  "admin-extensions": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 4,
+    "empty": 0
+  },
+  "fulfillment": {
+    "ok": 3,
+    "cached": 0,
+    "failed": 4,
+    "empty": 0
+  }
+}

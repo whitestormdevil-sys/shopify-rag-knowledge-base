@@ -1,0 +1,2 @@
+*.sqlite filter=lfs diff=lfs merge=lfs -text
+qdrant_data/** filter=lfs diff=lfs merge=lfs -text

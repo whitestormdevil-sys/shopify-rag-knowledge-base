@@ -1,0 +1,10 @@
+{
+  "collection": "shopify_knowledge",
+  "model": "BAAI/bge-small-en-v1.5",
+  "chunk_size": 1000,
+  "overlap": 200,
+  "files": 2320,
+  "chunks": 41303,
+  "points": 41303,
+  "dimension": 384
+}

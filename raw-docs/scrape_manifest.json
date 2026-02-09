@@ -1,0 +1,1346 @@
+{
+  "liquid-docs": [
+    {
+      "url": "https://shopify.dev/docs/api/liquid",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid.md",
+      "status": "ok",
+      "size": 9007
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid_basics.md",
+      "status": "ok",
+      "size": 7187
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics/types",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid_basics_types.md",
+      "status": "ok",
+      "size": 7193
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics/operators",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid_basics_operators.md",
+      "status": "ok",
+      "size": 7197
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics/truthy-and-falsy",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics/whitespace",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid_basics_whitespace.md",
+      "status": "ok",
+      "size": 7198
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/basics/handle",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-docs/docs_api_liquid_basics_handle.md",
+      "status": "ok",
+      "size": 7194
+    }
+  ],
+  "liquid-objects": [
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects.md",
+      "status": "ok",
+      "size": 9015
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/product",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_product.md",
+      "status": "ok",
+      "size": 31176
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/collection",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_collection.md",
+      "status": "ok",
+      "size": 21539
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/cart",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_cart.md",
+      "status": "ok",
+      "size": 16066
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/shop",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_shop.md",
+      "status": "ok",
+      "size": 22694
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/customer",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_customer.md",
+      "status": "ok",
+      "size": 12968
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/order",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_order.md",
+      "status": "ok",
+      "size": 24639
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/variant",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_variant.md",
+      "status": "ok",
+      "size": 26447
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/image",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_image.md",
+      "status": "ok",
+      "size": 8242
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/metafield",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_metafield.md",
+      "status": "ok",
+      "size": 11746
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/page",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_page.md",
+      "status": "ok",
+      "size": 3843
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/blog",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_blog.md",
+      "status": "ok",
+      "size": 5985
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/article",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_article.md",
+      "status": "ok",
+      "size": 9918
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/comment",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_comment.md",
+      "status": "ok",
+      "size": 3834
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/link",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_link.md",
+      "status": "ok",
+      "size": 8745
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/linklist",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_linklist.md",
+      "status": "ok",
+      "size": 1374
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/section",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_section.md",
+      "status": "ok",
+      "size": 3803
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/block",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_block.md",
+      "status": "ok",
+      "size": 2505
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/settings",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_settings.md",
+      "status": "ok",
+      "size": 1260
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/template",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_template.md",
+      "status": "ok",
+      "size": 1566
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/theme",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_theme.md",
+      "status": "ok",
+      "size": 2062
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/request",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_request.md",
+      "status": "ok",
+      "size": 4969
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_header",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_content_for_header.md",
+      "status": "ok",
+      "size": 820
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/content_for_layout",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_content_for_layout.md",
+      "status": "ok",
+      "size": 701
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/form",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_form.md",
+      "status": "ok",
+      "size": 8626
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/paginate",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_paginate.md",
+      "status": "ok",
+      "size": 3827
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/search",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_search.md",
+      "status": "ok",
+      "size": 9460
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/tablerow",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/forloop",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_forloop.md",
+      "status": "ok",
+      "size": 3444
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/address",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_address.md",
+      "status": "ok",
+      "size": 5582
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/company",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_company.md",
+      "status": "ok",
+      "size": 2582
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/company_address",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_company_address.md",
+      "status": "ok",
+      "size": 4045
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/company_location",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_company_location.md",
+      "status": "ok",
+      "size": 4346
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_discount.md",
+      "status": "ok",
+      "size": 7487
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount_allocation",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_discount_allocation.md",
+      "status": "ok",
+      "size": 1560
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/discount_application",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_discount_application.md",
+      "status": "ok",
+      "size": 5031
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/fulfillment",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_fulfillment.md",
+      "status": "ok",
+      "size": 3225
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/gift_card",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_gift_card.md",
+      "status": "ok",
+      "size": 8498
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/line_item",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_line_item.md",
+      "status": "ok",
+      "size": 34863
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/money",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_money.md",
+      "status": "ok",
+      "size": 1277
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/policy",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_policy.md",
+      "status": "ok",
+      "size": 1305
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/shipping_method",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_shipping_method.md",
+      "status": "ok",
+      "size": 5203
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/store_availability",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_store_availability.md",
+      "status": "ok",
+      "size": 3134
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/tax_line",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_tax_line.md",
+      "status": "ok",
+      "size": 1616
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/transaction",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_transaction.md",
+      "status": "ok",
+      "size": 11801
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/unit_price_measurement",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_unit_price_measurement.md",
+      "status": "ok",
+      "size": 2122
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/video",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_video.md",
+      "status": "ok",
+      "size": 4740
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/video_source",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_video_source.md",
+      "status": "ok",
+      "size": 2651
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/media",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_media.md",
+      "status": "ok",
+      "size": 4493
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/model",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_model.md",
+      "status": "ok",
+      "size": 3855
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/model_source",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_model_source.md",
+      "status": "ok",
+      "size": 1191
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/predictive_search",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_predictive_search.md",
+      "status": "ok",
+      "size": 4250
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/recommendations",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_recommendations.md",
+      "status": "ok",
+      "size": 3080
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/color",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_color.md",
+      "status": "ok",
+      "size": 4406
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/font",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_font.md",
+      "status": "ok",
+      "size": 3420
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/filter",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_filter.md",
+      "status": "ok",
+      "size": 5016
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/filter_value",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_filter_value.md",
+      "status": "ok",
+      "size": 5028
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/country",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_country.md",
+      "status": "ok",
+      "size": 5518
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/currency",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_currency.md",
+      "status": "ok",
+      "size": 891
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/locale",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/market",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_market.md",
+      "status": "ok",
+      "size": 1848
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_selling_plan.md",
+      "status": "ok",
+      "size": 4392
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan_allocation",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_selling_plan_allocation.md",
+      "status": "ok",
+      "size": 7887
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/selling_plan_group",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_selling_plan_group.md",
+      "status": "ok",
+      "size": 3720
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/objects/quantity_rule",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-objects/docs_api_liquid_objects_quantity_rule.md",
+      "status": "ok",
+      "size": 2906
+    }
+  ],
+  "liquid-filters-tags": [
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters.md",
+      "status": "ok",
+      "size": 9015
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/abs",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_abs.md",
+      "status": "ok",
+      "size": 320
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/append",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_append.md",
+      "status": "ok",
+      "size": 757
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/at_least",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_at_least.md",
+      "status": "ok",
+      "size": 399
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/at_most",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_at_most.md",
+      "status": "ok",
+      "size": 393
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/capitalize",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_capitalize.md",
+      "status": "ok",
+      "size": 589
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/ceil",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_ceil.md",
+      "status": "ok",
+      "size": 329
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/compact",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_compact.md",
+      "status": "ok",
+      "size": 2457
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/concat",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_concat.md",
+      "status": "ok",
+      "size": 2592
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/date",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_date.md",
+      "status": "ok",
+      "size": 3679
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/default",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_default.md",
+      "status": "ok",
+      "size": 1345
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/divided_by",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_divided_by.md",
+      "status": "ok",
+      "size": 938
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/downcase",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_downcase.md",
+      "status": "ok",
+      "size": 472
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/escape",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_escape.md",
+      "status": "ok",
+      "size": 635
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/escape_once",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_escape_once.md",
+      "status": "ok",
+      "size": 1387
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/first",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_first.md",
+      "status": "ok",
+      "size": 2960
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/floor",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_floor.md",
+      "status": "ok",
+      "size": 335
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/join",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_join.md",
+      "status": "ok",
+      "size": 1211
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/json",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_json.md",
+      "status": "ok",
+      "size": 4819
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/last",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_last.md",
+      "status": "ok",
+      "size": 2926
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/lstrip",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_lstrip.md",
+      "status": "ok",
+      "size": 662
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/map",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_map.md",
+      "status": "ok",
+      "size": 926
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/minus",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_minus.md",
+      "status": "ok",
+      "size": 346
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/modulo",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_modulo.md",
+      "status": "ok",
+      "size": 368
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/newline_to_br",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_newline_to_br.md",
+      "status": "ok",
+      "size": 1076
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/plus",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_plus.md",
+      "status": "ok",
+      "size": 314
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/prepend",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_prepend.md",
+      "status": "ok",
+      "size": 774
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/remove",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_remove.md",
+      "status": "ok",
+      "size": 415
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/remove_first",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_remove_first.md",
+      "status": "ok",
+      "size": 675
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/replace",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_replace.md",
+      "status": "ok",
+      "size": 552
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/replace_first",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_replace_first.md",
+      "status": "ok",
+      "size": 584
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/reverse",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_reverse.md",
+      "status": "ok",
+      "size": 1917
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/round",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_round.md",
+      "status": "ok",
+      "size": 853
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/rstrip",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_rstrip.md",
+      "status": "ok",
+      "size": 659
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/size",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_size.md",
+      "status": "ok",
+      "size": 1472
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/slice",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_slice.md",
+      "status": "ok",
+      "size": 1565
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/sort",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_sort.md",
+      "status": "ok",
+      "size": 3836
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/sort_natural",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_sort_natural.md",
+      "status": "ok",
+      "size": 4067
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/split",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_split.md",
+      "status": "ok",
+      "size": 697
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/strip",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_strip.md",
+      "status": "ok",
+      "size": 661
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/strip_html",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_strip_html.md",
+      "status": "ok",
+      "size": 1621
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/strip_newlines",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_strip_newlines.md",
+      "status": "ok",
+      "size": 1718
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/times",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_times.md",
+      "status": "ok",
+      "size": 339
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/truncate",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_truncate.md",
+      "status": "ok",
+      "size": 1490
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/truncatewords",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_truncatewords.md",
+      "status": "ok",
+      "size": 2935
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/uniq",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_uniq.md",
+      "status": "ok",
+      "size": 566
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/upcase",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_upcase.md",
+      "status": "ok",
+      "size": 464
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/url_decode",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_url_decode.md",
+      "status": "ok",
+      "size": 486
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/url_encode",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_url_encode.md",
+      "status": "ok",
+      "size": 810
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/where",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_where.md",
+      "status": "ok",
+      "size": 6001
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/asset_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_asset_url.md",
+      "status": "ok",
+      "size": 673
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/asset_img_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_asset_img_url.md",
+      "status": "ok",
+      "size": 1491
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/img_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_img_url.md",
+      "status": "ok",
+      "size": 6619
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/image_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_image_url.md",
+      "status": "ok",
+      "size": 9437
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/image_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_image_tag.md",
+      "status": "ok",
+      "size": 15530
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/stylesheet_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_stylesheet_tag.md",
+      "status": "ok",
+      "size": 1901
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/script_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_script_tag.md",
+      "status": "ok",
+      "size": 749
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/money",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_money.md",
+      "status": "ok",
+      "size": 533
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/money_with_currency",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_money_with_currency.md",
+      "status": "ok",
+      "size": 598
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/money_without_trailing_zeros",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_money_without_trailing_zeros.md",
+      "status": "ok",
+      "size": 826
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/money_without_currency",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_money_without_currency.md",
+      "status": "ok",
+      "size": 632
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/url_for_type",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_url_for_type.md",
+      "status": "ok",
+      "size": 554
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/url_for_vendor",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_url_for_vendor.md",
+      "status": "ok",
+      "size": 650
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/link_to",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_link_to.md",
+      "status": "ok",
+      "size": 1275
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/link_to_type",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_link_to_type.md",
+      "status": "ok",
+      "size": 1377
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/link_to_vendor",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_link_to_vendor.md",
+      "status": "ok",
+      "size": 1715
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/within",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_within.md",
+      "status": "ok",
+      "size": 1843
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/pluralize",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_pluralize.md",
+      "status": "ok",
+      "size": 1313
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/customer_login_link",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_customer_login_link.md",
+      "status": "ok",
+      "size": 531
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/customer_logout_link",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_customer_logout_link.md",
+      "status": "ok",
+      "size": 586
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/customer_register_link",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_customer_register_link.md",
+      "status": "ok",
+      "size": 606
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/payment_type_img_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_payment_type_img_url.md",
+      "status": "ok",
+      "size": 2687
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/shopify_asset_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_shopify_asset_url.md",
+      "status": "ok",
+      "size": 913
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/global_asset_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_global_asset_url.md",
+      "status": "ok",
+      "size": 3034
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/file_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_file_url.md",
+      "status": "ok",
+      "size": 688
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/file_img_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_file_img_url.md",
+      "status": "ok",
+      "size": 1468
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/t",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/weight_with_unit",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_weight_with_unit.md",
+      "status": "ok",
+      "size": 1865
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/format_address",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_format_address.md",
+      "status": "ok",
+      "size": 1152
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/highlight",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_highlight.md",
+      "status": "ok",
+      "size": 1535
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/metafield_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_metafield_tag.md",
+      "status": "ok",
+      "size": 25514
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/metafield_text",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_metafield_text.md",
+      "status": "ok",
+      "size": 5153
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/external_video_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_external_video_tag.md",
+      "status": "ok",
+      "size": 4497
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/external_video_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_external_video_url.md",
+      "status": "ok",
+      "size": 2483
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/model_viewer_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_model_viewer_tag.md",
+      "status": "ok",
+      "size": 4937
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/video_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_video_tag.md",
+      "status": "ok",
+      "size": 8136
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/media_tag",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_media_tag.md",
+      "status": "ok",
+      "size": 4852
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_to_rgb",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_to_rgb.md",
+      "status": "ok",
+      "size": 506
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_to_hsl",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_to_hsl.md",
+      "status": "ok",
+      "size": 503
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_to_hex",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_to_hex.md",
+      "status": "ok",
+      "size": 576
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_extract",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_extract.md",
+      "status": "ok",
+      "size": 534
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_brightness",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_brightness.md",
+      "status": "ok",
+      "size": 465
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_modify",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_modify.md",
+      "status": "ok",
+      "size": 1242
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_lighten",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_lighten.md",
+      "status": "ok",
+      "size": 455
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_darken",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_darken.md",
+      "status": "ok",
+      "size": 450
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_saturate",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_saturate.md",
+      "status": "ok",
+      "size": 460
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_desaturate",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_desaturate.md",
+      "status": "ok",
+      "size": 470
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_mix",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_mix.md",
+      "status": "ok",
+      "size": 1297
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_difference",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_difference.md",
+      "status": "ok",
+      "size": 810
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/brightness_difference",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_brightness_difference.md",
+      "status": "ok",
+      "size": 860
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/color_contrast",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_color_contrast.md",
+      "status": "ok",
+      "size": 1924
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/font_modify",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_font_modify.md",
+      "status": "ok",
+      "size": 5579
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/font_face",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_font_face.md",
+      "status": "ok",
+      "size": 2786
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/filters/font_url",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_filters_font_url.md",
+      "status": "ok",
+      "size": 1602
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags.md",
+      "status": "ok",
+      "size": 9012
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/if",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_if.md",
+      "status": "ok",
+      "size": 1342
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/elsif",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/else",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/unless",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_unless.md",
+      "status": "ok",
+      "size": 1213
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/case",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_case.md",
+      "status": "ok",
+      "size": 2640
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/for",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_for.md",
+      "status": "ok",
+      "size": 9602
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/break",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_break.md",
+      "status": "ok",
+      "size": 531
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/continue",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_continue.md",
+      "status": "ok",
+      "size": 567
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/cycle",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_cycle.md",
+      "status": "ok",
+      "size": 2934
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/tablerow",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_tablerow.md",
+      "status": "ok",
+      "size": 10343
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/assign",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_assign.md",
+      "status": "ok",
+      "size": 1439
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/capture",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_capture.md",
+      "status": "ok",
+      "size": 1952
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/increment",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_increment.md",
+      "status": "ok",
+      "size": 1841
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/decrement",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_decrement.md",
+      "status": "ok",
+      "size": 1848
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/echo",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_echo.md",
+      "status": "ok",
+      "size": 1119
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/liquid",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_liquid.md",
+      "status": "ok",
+      "size": 1685
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/raw",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_raw.md",
+      "status": "ok",
+      "size": 521
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/render",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_render.md",
+      "status": "ok",
+      "size": 3363
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/include",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_include.md",
+      "status": "ok",
+      "size": 847
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/section",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_section.md",
+      "status": "ok",
+      "size": 23621
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/sections",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_sections.md",
+      "status": "ok",
+      "size": 582
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/layout",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_layout.md",
+      "status": "ok",
+      "size": 528
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/comment",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_comment.md",
+      "status": "ok",
+      "size": 1971
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/form",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_form.md",
+      "status": "ok",
+      "size": 28217
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/paginate",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_paginate.md",
+      "status": "ok",
+      "size": 9763
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/style",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_style.md",
+      "status": "ok",
+      "size": 1478
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/javascript",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/liquid-filters-tags/docs_api_liquid_tags_javascript.md",
+      "status": "ok",
+      "size": 1126
+    },
+    {
+      "url": "https://shopify.dev/docs/api/liquid/tags/schema",
+      "status": "failed"
+    }
+  ],
+  "patterns-best-practices": [
+    {
+      "url": "https://shopify.dev/docs/themes",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes.md",
+      "status": "ok",
+      "size": 5022
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/getting-started",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_getting-started.md",
+      "status": "ok",
+      "size": 5038
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture.md",
+      "status": "ok",
+      "size": 13982
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/layouts",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_layouts.md",
+      "status": "ok",
+      "size": 7982
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/templates",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_templates.md",
+      "status": "ok",
+      "size": 10273
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/sections",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_sections.md",
+      "status": "ok",
+      "size": 10335
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/blocks",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_blocks.md",
+      "status": "ok",
+      "size": 5610
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/config",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_config.md",
+      "status": "ok",
+      "size": 3984
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/locales",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_locales.md",
+      "status": "ok",
+      "size": 4917
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/assets",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/snippets",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_architecture_snippets.md",
+      "status": "ok",
+      "size": 2852
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/best-practices",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_best-practices.md",
+      "status": "ok",
+      "size": 5084
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/best-practices/performance",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_best-practices_performance.md",
+      "status": "ok",
+      "size": 19573
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/best-practices/responsive-design",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/tools/cli",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_tools_cli.md",
+      "status": "ok",
+      "size": 27378
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/pricing",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/store/requirements",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/patterns-best-practices/docs_themes_store_requirements.md",
+      "status": "ok",
+      "size": 95323
+    }
+  ],
+  "accessibility": [
+    {
+      "url": "https://shopify.dev/docs/themes/best-practices/accessibility",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/accessibility/docs_themes_best-practices_accessibility.md",
+      "status": "ok",
+      "size": 14389
+    }
+  ],
+  "json-schemas": [
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/config/settings-schema",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/config/settings-data",
+      "status": "failed"
+    },
+    {
+      "url": "https://shopify.dev/docs/themes/architecture/sections/section-schema",
+      "file": "/Users/ec2-user/Documents/ShopifyAI/rag-knowledge-base/raw-docs/json-schemas/docs_themes_architecture_sections_section-schema.md",
+      "status": "ok",
+      "size": 25772
+    }
+  ]
+}
