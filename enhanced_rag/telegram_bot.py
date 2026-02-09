@@ -23,7 +23,16 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "REDACTED")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+if not BOT_TOKEN:
+    # Try loading from .env file
+    env_path = Path(__file__).parent.parent / ".env"
+    if env_path.exists():
+        for line in env_path.read_text().splitlines():
+            if line.startswith("TELEGRAM_BOT_TOKEN="):
+                BOT_TOKEN = line.split("=", 1)[1].strip().strip('"').strip("'")
+    if not BOT_TOKEN:
+        raise RuntimeError("Set TELEGRAM_BOT_TOKEN env var or add it to .env")
 
 # Lazy-load search engine (heavy init)
 _engine = None

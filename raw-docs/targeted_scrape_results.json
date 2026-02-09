@@ -1,0 +1,57 @@
+{
+  "flow-docs": {
+    "scraped": 3,
+    "failed": 5,
+    "total": 8
+  },
+  "pixels-analytics": {
+    "scraped": 6,
+    "failed": 2,
+    "total": 8
+  },
+  "subscriptions-docs": {
+    "scraped": 7,
+    "failed": 1,
+    "total": 8
+  },
+  "markets-i18n": {
+    "scraped": 7,
+    "failed": 3,
+    "total": 10
+  },
+  "theme-app-ext": {
+    "scraped": 3,
+    "failed": 3,
+    "total": 6
+  },
+  "os2-sections": {
+    "scraped": 8,
+    "failed": 0,
+    "total": 8
+  },
+  "auth-oauth": {
+    "scraped": 3,
+    "failed": 2,
+    "total": 5
+  },
+  "ajax-cart-api": {
+    "scraped": 5,
+    "failed": 0,
+    "total": 5
+  },
+  "perf-best-practices": {
+    "scraped": 6,
+    "failed": 1,
+    "total": 7
+  },
+  "css-styling": {
+    "scraped": 2,
+    "failed": 3,
+    "total": 5
+  },
+  "editor-api": {
+    "scraped": 2,
+    "failed": 3,
+    "total": 5
+  }
+}

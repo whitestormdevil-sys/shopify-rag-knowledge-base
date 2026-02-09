@@ -147,7 +147,9 @@ COLLECTION_RULES = {
         "categories": ["admin-api", "storefront-api", "ajax-api", "webhooks",
                        "functions-docs", "checkout-docs", "app-bridge-docs",
                        "cli-docs", "hydrogen-docs", "bulk-operations",
-                       "customer-events", "multipass", "auth"],
+                       "customer-events", "multipass", "auth",
+                       "ajax-cart-api", "auth-oauth", "subscriptions-docs",
+                       "pixels-analytics", "editor-api"],
     },
     "troubleshooting": {
         "categories": ["gotchas", "community"],
@@ -158,7 +160,13 @@ COLLECTION_RULES = {
                        "markets", "b2b", "payments", "flow", "subscriptions",
                        "discounts", "fulfillment", "pos", "migrations",
                        "email-templates", "metaobjects", "app-proxy",
-                       "cdn-images"],
+                       "cdn-images", "perf-best-practices", "flow-docs",
+                       "markets-i18n"],
+    },
+    "theme_patterns": {
+        "categories": ["theme-patterns", "patterns-best-practices", "json-schemas",
+                       "accessibility", "performance", "seo",
+                       "os2-sections", "theme-app-ext", "css-styling"],
     },
 }
 
@@ -185,11 +193,13 @@ def detect_content_type(text: str, file_type: str, category: str) -> str:
         return "code_example"
     if category in ("liquid-docs", "liquid-objects", "liquid-filters-tags"):
         return "liquid_reference"
-    if category in ("admin-api", "storefront-api", "ajax-api", "webhooks", "functions-docs"):
+    if category in ("admin-api", "storefront-api", "ajax-api", "webhooks", "functions-docs",
+                     "ajax-cart-api", "auth-oauth", "subscriptions-docs", "pixels-analytics", "editor-api"):
         return "api_reference"
     if category in ("gotchas", "community"):
         return "troubleshooting"
-    if category in ("theme-patterns", "patterns-best-practices", "seo", "performance"):
+    if category in ("theme-patterns", "patterns-best-practices", "seo", "performance",
+                     "os2-sections", "theme-app-ext", "css-styling"):
         return "pattern"
     if code_indicators > 5:
         return "code_example"

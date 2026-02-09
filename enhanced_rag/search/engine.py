@@ -43,7 +43,19 @@ class AnalyzedQuery:
 
 # Intent patterns with PRIORITY WEIGHTS — higher = more specific = wins ties
 INTENT_PATTERNS = {
-    "code_gen": {  # HIGHEST priority — most specific
+    "debug": {  # HIGHEST priority — error/problem queries always win
+        "weight": 3.5,
+        "patterns": [
+            r"why (?:is|does|doesn|are|won|can)", r"not working", r"\berror\b",
+            r"\bissue\b", r"\bproblem\b", r"\bnil\b", r"\bblank\b",
+            r"\bundefined\b", r"\bbroken\b", r"\bfix\b", r"\bbug\b",
+            r"\bwrong\b", r"\bfailing\b", r"not (?:show|display|appear|render)",
+            r"how to (?:fix|debug|troubleshoot|solve|resolve)",
+            r"show(?:s|ing)? nothing", r"(?:returns?|gives?) (?:nil|null|empty|blank|nothing)",
+            r"doesn.t (?:work|show|display|render|appear|load)",
+        ],
+    },
+    "code_gen": {  # HIGH priority — explicit generation requests
         "weight": 3.0,
         "patterns": [
             r"^(?:build|generate|create|write|make) (?:me |a |the )?(?:section|template|snippet|theme|component|page|layout)",
@@ -51,16 +63,6 @@ INTENT_PATTERNS = {
             r"code for (?:a |the )?", r"liquid (?:code |snippet )?for",
             r"generate (?:a |the |me )?", r"build me ",
             r"create (?:a |the )?(?:custom |new )?(?:section|template|snippet|page|block)",
-        ],
-    },
-    "debug": {  # HIGH priority — error-related
-        "weight": 2.5,
-        "patterns": [
-            r"why (?:is|does|doesn|are|won|can)", r"not working", r"\berror\b",
-            r"\bissue\b", r"\bproblem\b", r"\bnil\b", r"\bblank\b",
-            r"\bundefined\b", r"\bbroken\b", r"\bfix\b", r"\bbug\b",
-            r"\bwrong\b", r"\bfailing\b", r"not (?:show|display|appear|render)",
-            r"how to (?:fix|debug|troubleshoot|solve|resolve)",
         ],
     },
     "comparison": {  # MEDIUM-HIGH priority
