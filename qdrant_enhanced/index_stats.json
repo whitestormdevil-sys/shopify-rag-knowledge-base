@@ -1,13 +1,39 @@
 {
-  "total_indexed": 42744,
+  "total_chunks": 47843,
+  "total_indexed": 47843,
   "embedding_model": "BAAI/bge-small-en-v1.5",
   "embedding_dim": 384,
+  "bm25_vocab_size": 50000,
   "collections": {
-    "liquid_reference": 3583,
-    "code_examples": 15049,
-    "theme_patterns": 1149,
-    "api_reference": 18214,
-    "troubleshooting": 1293,
-    "best_practices": 3456
+    "liquid_reference": {
+      "total": 3622,
+      "parents": 535,
+      "children": 3087
+    },
+    "code_examples": {
+      "total": 15049,
+      "parents": 697,
+      "children": 14352
+    },
+    "theme_patterns": {
+      "total": 1629,
+      "parents": 192,
+      "children": 1437
+    },
+    "api_reference": {
+      "total": 19279,
+      "parents": 1085,
+      "children": 18194
+    },
+    "troubleshooting": {
+      "total": 1293,
+      "parents": 214,
+      "children": 1079
+    },
+    "best_practices": {
+      "total": 6971,
+      "parents": 602,
+      "children": 6369
+    }
   }
 }
