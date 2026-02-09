@@ -1,0 +1,13 @@
+{
+  "total_indexed": 42744,
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_dim": 384,
+  "collections": {
+    "liquid_reference": 3583,
+    "code_examples": 15049,
+    "theme_patterns": 1149,
+    "api_reference": 18214,
+    "troubleshooting": 1293,
+    "best_practices": 3456
+  }
+}
