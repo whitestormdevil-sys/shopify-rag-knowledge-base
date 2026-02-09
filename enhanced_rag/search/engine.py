@@ -111,13 +111,13 @@ INTENT_COLLECTION_WEIGHTS = {
         "troubleshooting": 0.1, "best_practices": 0.2,
     },
     "how_to": {
-        "theme_patterns": 1.0, "code_examples": 0.9, "best_practices": 0.8,
-        "liquid_reference": 0.4, "api_reference": 0.3,
+        "theme_patterns": 0.9, "code_examples": 1.0, "best_practices": 0.6,
+        "liquid_reference": 0.4, "api_reference": 0.4,
         "troubleshooting": 0.3,
     },
     "debug": {
-        "troubleshooting": 1.0, "best_practices": 0.7, "liquid_reference": 0.6,
-        "code_examples": 0.4, "theme_patterns": 0.3,
+        "troubleshooting": 1.0, "liquid_reference": 0.7, "code_examples": 0.5,
+        "best_practices": 0.3, "theme_patterns": 0.2,
         "api_reference": 0.2,
     },
     "code_gen": {
@@ -139,6 +139,17 @@ INTENT_COLLECTION_WEIGHTS = {
 
 # Topic-based collection boosts — if query contains these terms, boost these collections
 TOPIC_BOOSTS = {
+    # Troubleshooting terms → boost troubleshooting hard
+    "error": {"troubleshooting": +0.5, "theme_patterns": -0.3, "best_practices": -0.3},
+    "not working": {"troubleshooting": +0.5, "theme_patterns": -0.3, "best_practices": -0.3},
+    "fix": {"troubleshooting": +0.4, "theme_patterns": -0.2, "best_practices": -0.2},
+    "nil": {"troubleshooting": +0.5, "liquid_reference": +0.3},
+    "cors": {"troubleshooting": +0.5, "api_reference": +0.3},
+    "invalid": {"troubleshooting": +0.4, "liquid_reference": +0.3},
+    "debug": {"troubleshooting": +0.4, "code_examples": +0.2},
+    "memory limit": {"troubleshooting": +0.5, "best_practices": +0.2},
+    "show nothing": {"troubleshooting": +0.5, "liquid_reference": +0.3},
+    
     # API queries → boost api_reference hard, suppress liquid_reference
     "admin api": {"api_reference": +0.5, "liquid_reference": -0.4},
     "graphql": {"api_reference": +0.5, "liquid_reference": -0.4},
@@ -203,9 +214,14 @@ TOPIC_BOOSTS = {
     "function": {"api_reference": +0.4, "code_examples": +0.3},
     "app block": {"theme_patterns": +0.4, "code_examples": +0.3},
     "app extension": {"theme_patterns": +0.4, "api_reference": +0.3},
-    "multipass": {"api_reference": +0.5},
+    "multipass": {"api_reference": +0.5, "theme_patterns": -0.3},
     "b2b": {"api_reference": +0.4, "best_practices": +0.3},
     "market": {"api_reference": +0.3, "best_practices": +0.3},
+    "authenticat": {"api_reference": +0.5, "theme_patterns": -0.3},
+    "oauth": {"api_reference": +0.5, "theme_patterns": -0.3},
+    "subscription": {"api_reference": +0.5, "theme_patterns": -0.2},
+    "headless": {"api_reference": +0.4, "code_examples": +0.3},
+    "selling plan": {"api_reference": +0.5},
 }
 
 # Expanded synonym dictionary
@@ -494,10 +510,10 @@ class EnhancedSearchEngine:
         # Sort by score
         sorted_results = sorted(text_scores.values(), key=lambda x: -x["score"])
         
-        # Diversity enforcement: no more than 60% from any single collection
+        # Diversity enforcement: no more than 40% from any single collection
         final = []
         col_counts = defaultdict(int)
-        max_per_col = max(3, int(TOP_K_FINAL * 0.6))
+        max_per_col = max(2, int(TOP_K_FINAL * 0.4))
         
         for data in sorted_results:
             result = data["result"]
