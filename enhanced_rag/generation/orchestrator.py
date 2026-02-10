@@ -19,6 +19,9 @@ from .parser.output_parser import ThemeOutputParser, ThemeDiffParser
 from .parser.theme_file import ThemeFile
 from .validator.liquid_validator import LiquidValidator
 from .validator.schema_validator import SchemaValidator
+from .design_tokens import DesignTokenProcessor, DesignTokenResult
+from .context_accumulator import SectionContextAccumulator
+from .prompts.few_shot_examples import get_few_shot_prompt
 
 # RAG search engine
 import sys
@@ -217,11 +220,17 @@ class PipelineOrchestrator:
         self.diff_parser = ThemeDiffParser()
         self.liquid_validator = LiquidValidator()
         self.schema_validator = SchemaValidator()
+        self.token_processor = DesignTokenProcessor()
         
         # Load system prompts
         self._prompts = {}
         for role in MODELS:
             self._prompts[role] = _load_prompt(role)
+        
+        # Inject few-shot examples into Builder's system prompt
+        builder_prompt = self._prompts.get("builder", "")
+        if builder_prompt and "<few_shot_examples>" not in builder_prompt:
+            self._prompts["builder"] = builder_prompt + "\n\n" + get_few_shot_prompt()
     
     def _call_model(self, role: str, user_message: str, system_override: str = None) -> LLMResponse:
         """Call a model by role with correct config."""
@@ -256,10 +265,28 @@ class PipelineOrchestrator:
     # ── Stage 2: Architect ──────────────────────────────────────────────────
     
     def extract_requirements(self, user_input: str) -> dict:
-        """Extract structured requirements from user description."""
+        """Extract structured requirements from user description.
+        
+        The Architect now also generates concrete design_tokens (colors, fonts, 
+        spacing) alongside the mood-based design_system. If it doesn't provide 
+        tokens, the DesignTokenProcessor falls back to mood-based mapping.
+        """
         resp = self._call_model("architect", 
             f"MODE 1: REQUIREMENTS EXTRACTION\n\nUser description:\n{user_input}\n\n"
-            f"Return the full requirements JSON."
+            f"Return the full requirements JSON.\n\n"
+            f"IMPORTANT: In addition to the standard design_system (moods), also include a "
+            f"'design_tokens' field with CONCRETE values:\n"
+            f'{{"design_tokens": {{'
+            f'"colors": {{"accent": "#hex", "accent_contrast": "#hex", "surface": "#hex", '
+            f'"surface_alt": "#hex", "border": "#hex", "overlay": "rgba(...)"}}, '
+            f'"typography": {{"heading_font": "Font Name, serif", "body_font": "Font Name, sans-serif", '
+            f'"h1_size": "clamp(...)", "line_height_heading": "1.2"}}, '
+            f'"spacing": {{"section_vertical": "60px", "inner_padding": "24px", "grid_gap": "16px"}}, '
+            f'"borders": {{"radius_sm": "4px", "radius_md": "8px", "radius_lg": "16px"}}, '
+            f'"shadows": {{"sm": "0 1px 3px ...", "md": "0 4px 6px ..."}}, '
+            f'"transitions": {{"fast": "150ms ease", "normal": "300ms ease"}}'
+            f'}}}}\n'
+            f"Choose colors/fonts that match the store's brand and target audience."
         )
         try:
             return json.loads(resp.content)
@@ -290,8 +317,9 @@ class PipelineOrchestrator:
     
     # ── Stage 3+4: RAG + Build Section ──────────────────────────────────────
     
-    def build_section(self, section_spec: dict, style_guide: str = "") -> tuple[list[ThemeFile], list]:
-        """Generate a single section with RAG context.
+    def build_section(self, section_spec: dict, style_guide: str = "",
+                       design_token_guide: str = "", section_context: str = "") -> tuple[list[ThemeFile], list]:
+        """Generate a single section with RAG context, design tokens, and cross-section context.
         
         Returns (theme_files, validation_errors).
         """
@@ -310,6 +338,14 @@ class PipelineOrchestrator:
             f"Generate a complete, production-ready Shopify section.\n",
             f"<section_spec>\n{json.dumps(section_spec, indent=2)}\n</section_spec>\n",
         ]
+        
+        # Design token guide — ensures consistent styling
+        if design_token_guide:
+            user_parts.append(f"\n{design_token_guide}\n")
+        
+        # Previous sections context — ensures cross-section consistency
+        if section_context:
+            user_parts.append(f"\n{section_context}\n")
         
         if dawn_reference:
             user_parts.append(
@@ -498,7 +534,20 @@ class PipelineOrchestrator:
                 if s.get("action") in ("create_custom", "modify_dawn")
             ]
             
-            # Build style guide from design system
+            # ── NEW: Process Design Tokens ──
+            logger.info("  Processing design tokens...")
+            token_result = self.token_processor.process(requirements)
+            design_token_guide = token_result.builder_guide
+            
+            # Add the design tokens CSS file to output
+            token_css_file = ThemeFile(
+                path="assets/sai-design-tokens.css",
+                content=token_result.css_content,
+            )
+            all_files.append(token_css_file)
+            logger.info(f"  → Design token CSS generated ({len(token_result.css_content)} chars)")
+            
+            # Build style guide from design system (supplementary to design tokens)
             design = requirements.get("design_system", {})
             style_guide = (
                 f"Color mood: {design.get('color_mood', 'balanced')}\n"
@@ -508,13 +557,27 @@ class PipelineOrchestrator:
                 f"Overall feel: {design.get('overall_feel', 'modern and clean')}"
             )
             
+            # ── NEW: Initialize Context Accumulator ──
+            context_acc = SectionContextAccumulator()
+            
             for section_spec in sections_to_build:
                 section_name = section_spec.get("id", section_spec.get("name", "unknown"))
                 logger.info(f"  Building: {section_name}")
                 
-                files, errors = self.build_section(section_spec, style_guide=style_guide)
+                # Get cross-section context from previously built sections
+                section_context = context_acc.get_context_for_builder()
+                
+                files, errors = self.build_section(
+                    section_spec,
+                    style_guide=style_guide,
+                    design_token_guide=design_token_guide,
+                    section_context=section_context,
+                )
                 all_files.extend(files)
                 all_errors.extend(errors)
+                
+                # Register this section in the accumulator for next Builder call
+                context_acc.add_section(section_name, files)
                 
                 logger.info(f"    → {len(files)} files, {len(errors)} validation errors")
             
