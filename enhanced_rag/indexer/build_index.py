@@ -22,6 +22,7 @@ from fastembed import TextEmbedding
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
 from chunkers.smart_chunker import process_file, Chunk
+from chunkers.dawn_chunker import chunk_dawn_theme
 
 # ============ CONFIG ============
 RAW_DOCS = Path(__file__).parent.parent.parent / "raw-docs"
@@ -176,6 +177,35 @@ def main():
         parents = sum(1 for c in chunks if c.chunk_type == "parent")
         children = sum(1 for c in chunks if c.chunk_type == "child")
         print(f"   {col}: {len(chunks)} chunks ({parents} parents, {children} children)")
+    
+    # 2b. Deep Dawn theme chunks (purpose-built, rich metadata)
+    print("\n🌅 Adding deep Dawn theme chunks...")
+    dawn_chunks = chunk_dawn_theme()
+    for i, dc in enumerate(dawn_chunks):
+        chunk = Chunk(
+            id=f"dawn_{i}",
+            text=dc["text"],
+            parent_id=None,
+            collection=dc["collection"],
+            chunk_type="parent",
+            content_type=dc["metadata"].get("type", "dawn_theme"),
+            file_path=dc["metadata"].get("source", "dawn-theme"),
+            file_name=dc["metadata"].get("source", "").split("/")[-1],
+            file_type=dc["metadata"].get("file_type", "liquid"),
+            category=dc["metadata"].get("category", "dawn_theme"),
+            source_url="https://github.com/Shopify/dawn",
+            topics=[dc["metadata"].get("subcategory", "dawn")],
+            related_objects=dc["metadata"].get("liquid_objects", []),
+            complexity="intermediate",
+            char_count=len(dc["text"]),
+        )
+        all_chunks.append(chunk)
+        chunks_by_collection[chunk.collection].append(chunk)
+    
+    print(f"   Added {len(dawn_chunks)} Dawn chunks")
+    print(f"\n📊 Total after Dawn: {len(all_chunks)} chunks")
+    for col, chunks in sorted(chunks_by_collection.items()):
+        print(f"   {col}: {len(chunks)} chunks")
     
     # 3. Build BM25 vocabulary from all chunks
     print("\n📝 Building BM25 vocabulary...")
