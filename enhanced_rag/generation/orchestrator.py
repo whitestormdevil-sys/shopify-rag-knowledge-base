@@ -34,12 +34,12 @@ logger = logging.getLogger(__name__)
 # ── Model configs (from model_architecture.py — kept private) ───────────────
 
 MODELS = {
-    "router":    {"model_id": "anthropic.claude-haiku-4-5-20251001-v1:0",    "max_tokens": 4096,  "thinking": False, "budget": 0,     "temp": 0.3},
-    "architect": {"model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": True,  "budget": 10000, "temp": 1.0},
-    "builder":   {"model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": False, "budget": 0,     "temp": 0.4},
-    "critic":    {"model_id": "anthropic.claude-opus-4-6-v1",                "max_tokens": 8192,  "thinking": True,  "budget": 16000, "temp": 1.0},
-    "assembler": {"model_id": "anthropic.claude-haiku-4-5-20251001-v1:0",    "max_tokens": 4096,  "thinking": False, "budget": 0,     "temp": 0.3},
-    "iterator":  {"model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": True,  "budget": 10000, "temp": 1.0},
+    "router":    {"model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",    "max_tokens": 4096,  "thinking": False, "budget": 0,     "temp": 0.3},
+    "architect": {"model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": True,  "budget": 10000, "temp": 1.0},
+    "builder":   {"model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": False, "budget": 0,     "temp": 0.4},
+    "critic":    {"model_id": "us.anthropic.claude-opus-4-6-v1",                "max_tokens": 8192,  "thinking": True,  "budget": 16000, "temp": 1.0},
+    "assembler": {"model_id": "us.anthropic.claude-haiku-4-5-20251001-v1:0",    "max_tokens": 4096,  "thinking": False, "budget": 0,     "temp": 0.3},
+    "iterator":  {"model_id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",   "max_tokens": 16384, "thinking": True,  "budget": 10000, "temp": 1.0},
 }
 
 

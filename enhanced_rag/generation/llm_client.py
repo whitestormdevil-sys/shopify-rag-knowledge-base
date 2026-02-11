@@ -10,14 +10,29 @@ Handles:
 """
 
 import json
+import os
 import time
 import logging
 from dataclasses import dataclass, field
 from typing import Optional, Generator
+from pathlib import Path
 
 import boto3
 
 logger = logging.getLogger(__name__)
+
+
+def _load_env():
+    """Load .env file from project root if it exists."""
+    env_path = Path(__file__).parent.parent.parent / ".env"
+    if env_path.exists():
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, _, val = line.partition("=")
+                os.environ.setdefault(key.strip(), val.strip())
+
+_load_env()
 
 
 @dataclass
@@ -39,6 +54,7 @@ class LLMResponse:
 # ── Pricing (per 1K tokens) ─────────────────────────────────────────────────
 
 PRICING = {
+    # Standard model IDs
     "anthropic.claude-haiku-4-5-20251001-v1:0": {
         "input": 0.001, "output": 0.005, "cache_read": 0.0001, "cache_write": 0.00125,
     },
@@ -46,6 +62,16 @@ PRICING = {
         "input": 0.003, "output": 0.015, "cache_read": 0.0003, "cache_write": 0.00375,
     },
     "anthropic.claude-opus-4-6-v1": {
+        "input": 0.005, "output": 0.025, "cache_read": 0.0005, "cache_write": 0.00625,
+    },
+    # Cross-region inference profile IDs (same pricing)
+    "us.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "input": 0.001, "output": 0.005, "cache_read": 0.0001, "cache_write": 0.00125,
+    },
+    "us.anthropic.claude-sonnet-4-5-20250929-v1:0": {
+        "input": 0.003, "output": 0.015, "cache_read": 0.0003, "cache_write": 0.00375,
+    },
+    "us.anthropic.claude-opus-4-6-v1": {
         "input": 0.005, "output": 0.025, "cache_read": 0.0005, "cache_write": 0.00625,
     },
 }
@@ -58,6 +84,8 @@ class LLMClient:
         self.bedrock = boto3.client(
             "bedrock-runtime",
             region_name=region,
+            aws_access_key_id=os.environ.get("AWS_ACCESS_KEY_ID"),
+            aws_secret_access_key=os.environ.get("AWS_SECRET_ACCESS_KEY"),
         )
         self.total_cost = 0.0
         self.call_history: list[LLMResponse] = []
@@ -94,7 +122,9 @@ class LLMClient:
             "type": "text",
             "text": system_prompt,
         }]
-        if cache_system:
+        # Note: cacheControl not supported on cross-region inference profiles (us.*)
+        # Enable only for direct model IDs (anthropic.claude-*)
+        if cache_system and not model_id.startswith("us."):
             system_blocks[0]["cacheControl"] = {"type": "ephemeral"}
         
         # ── Build messages ──
@@ -110,6 +140,9 @@ class LLMClient:
         
         # ── Extended Thinking ──
         if extended_thinking:
+            # max_tokens must be > thinking budget
+            if max_tokens <= thinking_budget:
+                max_tokens = thinking_budget + 4096
             body["thinking"] = {
                 "type": "enabled",
                 "budget_tokens": thinking_budget,
